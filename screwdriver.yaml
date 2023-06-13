@@ -4,7 +4,7 @@ childPipelines:
     - git@github.com:aishwaryanair04/external-config-child2.git
 jobs:
   main:
-    image: node:8
+    image: docker.ouroath.com:4443/docker.io/node:18
     steps:
         - secrets: echo A:$A_SECRET && echo B:$B_SECRET && echo C:$C_SECRET
     requires: [~pr, ~commit]
