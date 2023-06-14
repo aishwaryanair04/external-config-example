@@ -2,6 +2,7 @@ childPipelines:
   scmUrls:
     - git@github.com:aishwaryanair04/external-config-child1.git
     - git@github.com:aishwaryanair04/external-config-child2.git
+    - git@github.com:aishwaryanair04/external-config-child3.git
 jobs:
   main:
     image: docker.ouroath.com:4443/docker.io/node:18
